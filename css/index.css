@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: #222;
+}
+
+.navbar-nav li {
+    padding-right: 20px;
+}
+
+#fresh {
+    height: 400px;
+    width: 400px;
+    margin-left: 150px;
+}
+
+footer {
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding-top: 2rem;
+}
+
+hr.light {
+    border-top: 1px solid #d5d5d5;
+}
+
+.nav-link {
+    font-size: 1.1em;
+}
+
+.padding {
+    padding-bottom: 2rem;
+}
+
+#logo {
+    width: 70%;
+    height: 70%;
+}
+
+
+#headtext {
+    padding: 30px;
+}
+
+
+header {
+    position: relative;
+    background-color: black;
+    height: 75vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+    position: relative;
+    z-index: 2;
+}
+
+
+@media (pointer: coarse) and (hover: none) {
+    header {
+        background: url(../assets/food.PNG) black no-repeat center center scroll;
+    }
+
+    header video {
+        display: none;
+    }
+}
